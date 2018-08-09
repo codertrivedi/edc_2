@@ -1,0 +1,51 @@
+button1 {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color:deepskyblue;
+    font-size: 20px;
+    position: fixed;
+    bottom: -1;
+    right:25;
+    font-family:cursive;
+}
+@font-face{font-family: Simplifica; src:url(SIMPLIFICA/SIMPLIFICA%20Typeface.ttf)}
+h1{
+    color:rgba(0, 191, 255, 0.74);
+    font-family: Simplifica;
+}
+
+        
+h4{
+    color: rgba(0, 191, 255, 0.74);
+    font-family: Simplifica; src:url(SIMPLIFICA/SIMPLIFICA%20Typeface.ttf);
+}
+
+
+.ghost-button {
+  border-width: thick;
+  font-family:cursive;
+  display: inline-block;
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+.ghost-button:hover,
+.ghost-button:active {
+  background-color:rgba(105, 105, 105, 0.44);
+  color:#fff;
+}
+
+
+.col-sm-15{
+            resize: both(20% 20%);
+    
+          }
